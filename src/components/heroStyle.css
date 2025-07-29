@@ -1,0 +1,64 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+/* this code is to 70% image of about */
+.mid {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.mid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* that about rea;ted changes in css end here */
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+  z-index: 2;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  font-weight: normal;
+  color: #ddd;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-text .show {
+  display: inline-block; /* Fixes inline overlapping */
+  background-color: white;
+  padding: 1rem 2rem;
+  color: black;
+  border-radius: 33px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;    
+  margin-bottom: 0;
+  text-decoration: none;
+}
