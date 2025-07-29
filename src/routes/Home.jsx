@@ -2,6 +2,10 @@ import Hero from '../components/Hero'
 import Navitems from '../components/Navitems'
 import heroImage from '../assets/12.jpg'
 import Distination from '../components/distination'
+import AboutSection from '../components/AboutSection';
+import CardSection from '../components/CardSection';
+import ContactSection from '../components/ContactSection';
+
 
 function Home() {
   return (
@@ -18,6 +22,9 @@ function Home() {
         Btntext="Plan Trip"
       />
       <Distination />
+      <AboutSection />
+      <CardSection />
+      <ContactSection />
     </>
   )
 }
